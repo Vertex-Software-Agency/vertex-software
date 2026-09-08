@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vertex Software
 
-## Getting Started
+A modern, responsive website for Vertex Software, a solo software development agency building custom websites, web applications, APIs, and full-stack software products.
 
-First, run the development server:
+## About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This website introduces Vertex Software and its development services. It includes information about the agency, selected projects, development process, and a contact section for potential clients.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project is built with Next.js and focuses on a clean user experience, responsive design, and maintainable component-based architecture.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive agency landing page
+- Dark Aurora-style visual design
+- Reusable React components
+- Services section
+- Selected projects section
+- About section
+- Why Vertex section
+- Development process section
+- Contact section
+- SEO metadata
+- Accessible navigation and links
+- Optimized project images
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- Next Image
+- ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+app/
+├── layout.tsx
+├── page.tsx
+└── about/
+    └── page.tsx
 
-## Deploy on Vercel
+components/
+├── About.tsx
+├── AuroraBackground.tsx
+├── Contact.tsx
+├── Footer.tsx
+├── Hero.tsx
+├── Navbar.tsx
+├── Process.tsx
+├── Projects.tsx
+├── Services.tsx
+└── WhyVertex.tsx
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+public/
+└── project-img/

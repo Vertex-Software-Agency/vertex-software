@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -7,6 +6,7 @@ const links = [
     { label: "Home", href: "#home" },
     { label: "Services", href: "#services" },
     { label: "Projects", href: "#projects" },
+    { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" },
 ];
 

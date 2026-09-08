@@ -4,7 +4,14 @@
 import { useState, type FormEvent } from "react";
 import { CheckCircle2 } from "lucide-react";
 
-const projectTypes = ["Full-stack product", "SaaS platform", "Website", "API / backend"];
+const projectTypes = [  
+    "Full-stack product", 
+    "MVP Development", 
+    "Custom Software Development", 
+    "Backend & API Development",
+    "Website Development",
+    "Maintenance & Support",
+];
 
 const inputClass = "mt-1.5 w-full rounded-lg border border-white/10 bg-white/5 px-3.5 py-2.5 text-sm text-mist placeholder:text-faint focus:border-brand focus:outline-none";
 
@@ -26,8 +33,7 @@ export function Contact() {
                         Start a project.
                     </h2>
                     <p className="mt-4 max-w-sm text-fog">
-                        Tell us what you're building. We reply within one business day with next steps and a
-                        first estimate.
+                        Tell me what you're building. I'll get back to you with next steps and a first estimate.
                     </p>
                     <address className="mt-8 space-y-3 font-mono text-sm text-fog not-italic">
                         <p>

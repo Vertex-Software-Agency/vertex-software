@@ -1,42 +1,48 @@
 
 const services = [
     {
+        glyph: "✦",
+        tone: "brand" as const,
+        title: "MVP Development",
+        description:
+            "Turn your idea into a functional, user-ready product with the essential features to launch, test, and grow.",
+    },
+    {
+        glyph: "⌘",
+        tone: "accent" as const,
+        title: "Custom Software Development",
+        description:
+            "Custom web applications and software solutions built around your business requirements and workflows.",
+    },
+    {
         glyph: "//",
         tone: "brand" as const,
         title: "Full-Stack Web Development",
-        description: "End-to-end product builds from database to interface, ready for real users.",
-    },
-    {
-        glyph: "</>",
-        tone: "accent" as const,
-        title: "Frontend Development",
-        description: "Fast, accessible interfaces with modern frameworks and pixel-level polish.",
+        description:
+            "End-to-end web applications built from database to interface, with the functionality your product needs.",
     },
     {
         glyph: "{}",
-        tone: "brand" as const,
-        title: "Backend & API Development",
-        description: "Robust services, typed APIs, and integrations built for reliability.",
-    },
-    {
-        glyph: "DB",
         tone: "accent" as const,
-        title: "Database & System Architecture",
-        description: "Schemas, data models, and infra designed to scale as you grow.",
-    },
-    {
-        glyph: "∞",
-        tone: "brand" as const,
-        title: "SaaS Development",
-        description: "Multi-tenant platforms with billing, auth, and dashboards baked in.",
+        title: "Backend & API Development",
+        description:
+            "Reliable backend services, APIs, and integrations that power your applications and connect your systems.",
     },
     {
         glyph: "◊",
-        tone: "accent" as const,
+        tone: "brand" as const,
         title: "Website Development",
-        description: "High-performance marketing and product sites that convert and rank.",
+        description:
+            "Fast, responsive websites built to represent your business, deliver a great user experience, and support your goals.",
     },
-]
+    {
+        glyph: "↻",
+        tone: "accent" as const,
+        title: "Maintenance & Support",
+        description:
+            "Ongoing maintenance, bug fixes, technical support, and improvements to keep your software reliable.",
+    },
+];
 
 export function Services() {
     return (

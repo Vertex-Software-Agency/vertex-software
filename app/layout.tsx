@@ -22,9 +22,18 @@ const jetbrainsMono = JetBrains_Mono({
     subsets: ["latin"]
 })
 
+
 export const metadata: Metadata = {
-  title: "Vertex Software",
-  description: "Custom software development for startups, businesses, and growing companies.",
+//   metadataBase: new URL("https://your-real-domain.com"),
+
+  title: {
+    default: "Vertex Software",
+    template: "%s | Vertex Software",
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

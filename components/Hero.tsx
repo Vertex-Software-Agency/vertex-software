@@ -1,8 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 const stats = [
-  { value: "5+", label: "products shipped" },
-  { value: "2", label: "years building" },
-  { value: "99.9%", label: "uptime" },
+    {
+        value: "5+",
+        label: "personal projects",
+    },
+    {
+        value: "2+",
+        label: "years of development",
+    },
+    {
+        value: "100%",
+        label: "founder-led",
+    },
 ];
 
 
@@ -19,8 +28,7 @@ export function Hero() {
             We build the software your product runs on.
           </h1>
           <p className="mt-5 max-w-md text-lg text-fog">
-            Vertex Software designs and ships full-stack products for startups and growing
-            companies — clean code, scalable architecture, reliable delivery.
+            Vertex Software builds custom web applications and software products for startups and businesses — from MVPs and internal tools to scalable web platforms.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
@@ -56,7 +64,7 @@ export function Hero() {
           </div>
           <pre className="overflow-x-auto px-5 py-5 font-mono text-[13px] leading-relaxed">
             <code>
-              <span className="text-faint">{"// deploy pipeline"}</span>
+              <span className="text-faint">{"// build something real"}</span>
               {"\n"}
               <span className="text-brand">const</span> <span className="text-accent">project</span> ={" "}
               <span className="text-brand">await</span> vertex.<span className="text-mist">build</span>

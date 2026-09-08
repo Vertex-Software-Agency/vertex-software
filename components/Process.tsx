@@ -1,9 +1,29 @@
 const steps = [
-    { number: "01", title: "Discovery", description: "Goals, scope, constraints." },
-    { number: "02", title: "Planning", description: "Architecture & timeline." },
-    { number: "03", title: "Development", description: "Iterative, reviewed builds." },
-    { number: "04", title: "Testing", description: "QA, edge cases, load." },
-    { number: "05", title: "Launch", description: "Deploy, monitor, support." },
+    { 
+        number: "01", 
+        title: "Discovery", 
+        description: "Understand your goals, requirements, and constraints." 
+    },
+    { 
+        number: "02", 
+        title: "Planning", 
+        description: "Define the scope, architecture, and development plan." 
+    },
+    { 
+        number: "03", 
+        title: "Development", 
+        description: "Build the product in focused, reviewable stages." 
+    },
+    { 
+        number: "04", 
+        title: "Testing", 
+        description: "Test functionality, fix issues, and prepare for launch." 
+    },
+    { 
+        number: "05", 
+        title: "Launch", 
+        description: "Deploy your software and help you move forward." 
+    },
 ];
 
 export function Process() {

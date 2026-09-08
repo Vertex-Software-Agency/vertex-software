@@ -2,28 +2,61 @@ import Image from "next/image";
 
 const projects = [
     {
-        name: "Ledgerly",
+        name: "Movie & TV Streaming",
         description:
-            "Real-time financial dashboard for a fintech startup processing daily transactions.",
-        image: "/project-img/project-ledgerly.jpg",
-        alt: "Ledgerly fintech analytics dashboard with violet charts",
-        stack: ["React", "Node", "Postgres"],
+            "A movie and TV streaming platform where users can explore titles, browse series, and manage their personal watchlist through a modern viewing experience.",
+        image: "/project-img/01-project-movie.jpg",
+        alt: "Movie and TV streaming website showing a dark-themed collection of films and series",
+        // href: "https://your-movie-project-url.com",
+        stack: [
+            "TypeScript",
+            "Next.js",
+            "Redux Toolkit & RTK Query",
+            "Tailwind CSS",
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Redis",
+            "Better Auth",
+            "Third-Party APIs",
+        ],
     },
     {
-        name: "Nimbus CRM",
+        name: "Grocery Shop",
         description:
-            "Multi-tenant CRM platform with automation and role-based access control.",
-        image: "/project-img/project-nimbus.jpg",
-        alt: "Nimbus CRM onboarding flow screens with teal accents",
-        stack: ["Next.js", "Go", "Redis"],
+            "An e-commerce website for grocery shopping, allowing customers to browse products, manage their cart, and place orders through a simple online shopping experience.",
+        image: "/project-img/02-project-grocery-shop.jpg",
+        alt: "Grocery e-commerce website displaying grocery products and shopping categories",
+        href: "https://grocery-store-rho-nine.vercel.app/",
+        stack: [
+            "TypeScript",
+            "React",
+            "Redux Toolkit",
+            "Tailwind CSS",
+            "Node.js",
+            "Express",
+            "JWT",
+            "MongoDB",
+        ],
     },
     {
-        name: "Freightline",
+        name: "Chat Application",
         description:
-            "Logistics tracking platform unifying dispatch, routing, and customer updates.",
-        image: "/project-img/project-freightline.jpg",
-        alt: "Freightline mobile logistics app with violet route map overlay",
-        stack: ["React Native", "GraphQL", "AWS"],
+            "A real-time chat application with a friend-request system that allows users to connect and message each other only after requests are accepted.",
+        image: "/project-img/03-project-chat.jpg",
+        alt: "Real-time chat application interface showing conversations and friend connections",
+        href: "https://chat-application-ruby-iota.vercel.app",
+        stack: [
+            "TypeScript",
+            "React",
+            "Redux Toolkit",
+            "Tailwind CSS",
+            "Node.js",
+            "Express",
+            "JWT",
+            "Socket.IO",
+            "MongoDB",
+        ],
     },
 ];
 
@@ -74,12 +107,20 @@ export function Projects() {
                                     </span>
                                 ))}
                             </div>
-                            <a
-                                href="#contact"
-                                className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-mist transition-all group-hover:gap-2"
-                            >
-                                View Project →
-                            </a>
+                            {project.href ? (
+                                <a
+                                    href={project.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-mist transition-all group-hover:gap-2"
+                                >
+                                    View Project →
+                                </a>
+                            ) : (
+                                <span className="mt-4 inline-flex text-sm font-medium text-fog">
+                                    In development
+                                </span>
+                            )}
                         </div>
                     </article>
                 ))}

@@ -1,27 +1,27 @@
 const reasons = [
     {
         title: "Clean, maintainable code",
-        description: "Readable, tested, and documented from day one.",
+        description: "Code that's easy to understand, maintain, and build on.",
     },
     {
         title: "Modern technology",
-        description: "The right tools, chosen for longevity not hype.",
+        description: "The right tools for your project, chosen for reliability and long-term value.",
     },
     {
         title: "Responsive experiences",
-        description: "Flawless across every screen and device.",
+        description: "Interfaces that work well across devices and screen sizes.",
     },
     {
         title: "Scalable architecture",
-        description: "Systems designed to absorb growth without rewrites.",
+        description: "A solid foundation that can grow with your product.",
     },
     {
         title: "Direct communication",
-        description: "One senior engineer. No hand-offs, no noise.",
+        description: "Work directly with the person building your software.",
     },
     {
         title: "Reliable delivery",
-        description: "Clear milestones and shipping dates you can plan on.",
+        description: "Clear communication, milestones, and progress throughout the project.",
     },
 ];
 
