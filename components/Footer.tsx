@@ -17,17 +17,17 @@ const navLinks = [
 const socialLinks = [
     {
         label: "GitHub",
-        href: "https://github.com/your-github-username",
+        href: "https://github.com/Vertex-Software-Agency",
         icon: FaGithub,
     },
     {
         label: "LinkedIn",
-        href: "https://www.linkedin.com/in/your-linkedin-username",
+        href: "https://www.linkedin.com/in/sahil-yatam-1a1740377/",
         icon: FaLinkedin,
     },
     {
         label: "Instagram",
-        href: "https://www.instagram.com/your-vertex-account",
+        href: "https://www.instagram.com/vertexsoftwareagency/",
         icon: FaInstagram,
     },
     {
